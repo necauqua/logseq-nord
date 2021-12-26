@@ -1,0 +1,17 @@
+{
+  "name": "Nord 🗻",
+  "author": "nmartin84",
+  "version": "0.1.0",
+  "description": "The NORD theme brought to Logseq",
+  "logseq": {
+    "themes": [
+      {
+        "name": "Nord",
+        "url": "./nord.css",
+        "description": "Nord Theme",
+        "mode": "dark"
+      }
+    ],
+    "id": "nord-theme"
+  }
+}
