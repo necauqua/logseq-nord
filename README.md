@@ -11,4 +11,3 @@ NORD Theme for Logseq.
 ## Frequently Asked Questions
 
 n/a
-
