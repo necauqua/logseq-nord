@@ -252,3 +252,22 @@ html[data-theme=light] .cp__right-sidebar :not(pre)>code, html[data-theme=dark] 
   position: relative;
   right: -0.4px;
 }
+
+.white-theme .block-ref {
+  background-color: #8fbcbb45;
+  text-decoration: none !important;
+  border-bottom: 2px solid var(--ls-primary-text-color);
+  border-radius: 4px !important;
+  padding: 2px 6px;
+}
+
+.dark-theme .block-ref {
+  background-color: #5d81ac52;
+  text-decoration: none !important;
+  border-bottom: 2px solid var(--ls-primary-text-color);
+  border-radius: 4px !important;
+  padding: 2px 6px;
+}
+.dark-theme .block-ref :not(pre)>code {
+  background-color: var(--bg-lg-2);
+}
