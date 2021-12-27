@@ -8,6 +8,12 @@
 
 NORD Theme for Logseq. 
 
+Dark:
+![dark](./attachments/dark-nord.png)
+
+Light:
+![light](./attachments/light-nord.png)
+
 ## Frequently Asked Questions
 
 n/a
