@@ -246,13 +246,6 @@ html[data-theme=light] .cp__right-sidebar :not(pre)>code, html[data-theme=dark] 
   font-size: 80%;
 }
 
-.block-children {
-  border-left: 1.4px solid;
-  border-left-color: var(--ls-guideline-color);
-  position: relative;
-  right: -0.4px;
-}
-
 .white-theme .block-ref {
   background-color: #8fbcbb45;
   text-decoration: none !important;
@@ -270,4 +263,8 @@ html[data-theme=light] .cp__right-sidebar :not(pre)>code, html[data-theme=dark] 
 }
 .dark-theme .block-ref :not(pre)>code {
   background-color: var(--bg-lg-2);
+}
+
+.block-children-left-border:hover {
+  background-color: var(--ls-guideline-color);
 }
