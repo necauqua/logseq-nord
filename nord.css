@@ -209,6 +209,7 @@ html[data-theme='light'] .CodeMirror-gutter,
 mark {
   background-color: var(--ls-mark-bg-color);
   color: var(--ls-mark-color);
+  padding: 0px 2px !important;
 }
 
 .block-ref {
