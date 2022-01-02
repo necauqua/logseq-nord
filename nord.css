@@ -42,7 +42,7 @@ html[data-theme='dark'] {
   --ls-mark-color: var(--bg-color);
   --ls-border-color: var(--cd-blue-2);
   --ls-secondary-border-color: #126277;
-  --ls-guideline-color: var(--cd-blue-2);
+  --ls-guideline-color: #525c71;
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #ECEFF4;
   --ls-secondary-text-color: #ECEFF4;
@@ -55,7 +55,7 @@ html[data-theme='dark'] {
   --ls-tag-text-hover-color: var(--cd-blue-1-4);
   --ls-slide-background-color: var(--ls-primary-background-color);
   --ls-block-bullet-border-color: var(--bg-lg-2);
-  --ls-block-bullet-color: var(--cd-blue-1-4);
+  --ls-block-bullet-color: var(--ls-guideline-color);
   --ls-block-highlight-color: var(--bg-lg-3);
   --ls-selection-background-color: var(--cd-pink-1);
   --ls-page-checkbox-color: var(--cd-blue-2);
@@ -126,7 +126,7 @@ html[data-theme='light'] {
   --ls-mark-color: var(--bg-color);
   --ls-border-color: var(--cd-blue-2);
   --ls-secondary-border-color: #126277;
-  --ls-guideline-color: var(--cd-blue-2);
+  --ls-guideline-color: #bac6db;
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #3B4252;
   --ls-secondary-text-color: #3B4252;
@@ -139,7 +139,7 @@ html[data-theme='light'] {
   --ls-tag-text-hover-color: var(--cd-blue-1-3);
   --ls-slide-background-color: var(--ls-primary-background-color);
   --ls-block-bullet-border-color: var(--bg-dk-2);
-  --ls-block-bullet-color: var(--cd-blue-3);
+  --ls-block-bullet-color: var(--ls-guideline-color);
   --ls-block-highlight-color: var(--bg-lg-3);
   --ls-selection-background-color: var(--cd-pink-1);
   --ls-page-checkbox-color: var(--cd-blue-2);
@@ -264,7 +264,15 @@ html[data-theme=light] .cp__right-sidebar :not(pre)>code, html[data-theme=dark] 
 .dark-theme .block-ref :not(pre)>code {
   background-color: var(--bg-lg-2);
 }
-
-.block-children-left-border:hover {
-  background-color: var(--ls-guideline-color);
+.block-children-left-border {
+  background-color: transparent !important;
+  border-left: 2px solid var(--ls-guideline-color);
 }
+.block-children-left-border:hover {
+  background-color: transparent !important;
+  border-left: 3px solid var(--ls-guideline-color);
+  margin-right: 1px;
+}
+/*.block-children-container:focus-within > .block-children-left-border {
+  border-left: 2px solid var(--ls-page-checkbox-color);
+}*/
