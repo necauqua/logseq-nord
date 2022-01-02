@@ -65,7 +65,7 @@ html[data-theme='dark'] {
   --ls-page-blockquote-border-color: var(--ls-border-color);
   --ls-page-inline-code-color: var(--cd-blue-4);
   --ls-page-inline-code-bg-color: var(--bg-dk-3);
-  --ls-scrollbar-foreground-color: var(--cd-blue-2);
+  --ls-scrollbar-foreground-color: #3c4454;
   --ls-scrollbar-background-color: var(--bg-dk-3);
   --ls-scrollbar-thumb-hover-color: var(--cd-orange-1);
   --ls-head-text-color: var(--ls-link-text-color);
@@ -149,7 +149,7 @@ html[data-theme='light'] {
   --ls-page-blockquote-border-color: var(--ls-border-color);
   --ls-page-inline-code-color: var(--cd-blue-3);
   --ls-page-inline-code-bg-color: var(--bg-lg-2);
-  --ls-scrollbar-foreground-color: var(--cd-blue-2);
+  --ls-scrollbar-foreground-color: #9ea7b7;
   --ls-scrollbar-background-color: var(--bg-dk-3);
   --ls-scrollbar-thumb-hover-color: var(--cd-orange-1);
   --ls-head-text-color: var(--ls-link-text-color);
