@@ -266,12 +266,12 @@ html[data-theme=light] .cp__right-sidebar :not(pre)>code, html[data-theme=dark] 
 }
 .block-children-left-border {
   background-color: transparent !important;
-  border-left: 2px solid var(--ls-guideline-color);
+  border-left: 1.5px solid var(--ls-guideline-color);
 }
 .block-children-left-border:hover {
   background-color: transparent !important;
   border-left: 3px solid var(--ls-guideline-color);
-  margin-right: 1px;
+  margin-right: 0.5px;
 }
 /*.block-children-container:focus-within > .block-children-left-border {
   border-left: 2px solid var(--ls-page-checkbox-color);
