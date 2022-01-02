@@ -84,10 +84,10 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
-  --bg-color: #ECEFF4;
-  --bg-dk-1: #E5E9F0;
-  --bg-dk-2: #D8DEE9;
-  --bg-dk-3: #C3CCDD;
+  --bg-color: hsl(218, 27%, 94%);
+  --bg-dk-1: hsl(218, 27%, 92%);
+  --bg-dk-2: hsl(219, 28%, 88%);
+  --bg-dk-3: hsl(219, 28%, 85%);
   --bg-lg-1: #DBE0EB;
   --bg-lg-2: #DDE3EC;
   --bg-lg-3: #E0E5EE;
@@ -113,8 +113,8 @@ html[data-theme='light'] {
   --ls-table-tr-even-background-color: var(--bg-dk-3);
   --ls-active-primary-color: var(--cd-blue-2);
   --ls-active-secondary-color: var(--cd-blue-4);
-  --ls-block-properties-background-color: var(--bg-dk-3);
-  --ls-page-properties-background-color: var(--bg-dk-3);
+  --ls-block-properties-background-color: var(--bg-dk-1);
+  --ls-page-properties-background-color: var(--bg-dk-1);
   --ls-block-ref-link-text-color: var(--cd-blue-3);
   --ls-search-background-color: linear-gradient(
     to right,
@@ -272,4 +272,18 @@ mark {
 
 :not(pre)>code {
   padding: 0px 1px !important;
+}
+
+/* Right sidebar properties, right sidebar references window */
+#right-sidebar .block-properties {
+  background-color: var(--color-level-2);
+}
+
+#right-sidebar .my-2.color-level .block-properties {
+  background-color: var(--color-level-3) !important;
+}
+
+/* Embedded page, main container reference window */
+#main-content-container .references-blocks .block-properties {
+  background-color: var(--color-level-2) !important;
 }
