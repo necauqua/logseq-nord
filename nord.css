@@ -197,11 +197,11 @@ html[data-theme='light'] .CodeMirror-gutter,
 }
 
 .page-ref {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .page-reference .bracket {
-  font-weight: 300;
+  font-weight: 400;
   color: var(--ls-primary-text-color);
   opacity: 0.3;
 }
