@@ -51,8 +51,8 @@ html[data-theme='dark'] {
   --ls-link-text-hover-color: var(--cd-blue-2);
   --ls-link-ref-text-color: var(--cd-blue-4);
   --ls-link-ref-text-hover-color: var(--cd-blue-1-6);
-  --ls-tag-text-color: var(--cd-blue-1);
-  --ls-tag-text-hover-color: var(--cd-blue-4);
+  --ls-tag-text-color: var(--cd-blue-4);
+  --ls-tag-text-hover-color: var(--cd-blue-1-6);
   --ls-slide-background-color: var(--ls-primary-background-color);
   --ls-block-bullet-border-color: var(--bg-lg-2);
   --ls-block-bullet-color: var(--ls-guideline-color);
@@ -246,20 +246,17 @@ mark {
   font-size: 80%;
 }
 
-.white-theme .block-ref {
-  background-color: #8fbcbb45;
+.white-theme .block-ref, .dark-theme .block-ref {
   text-decoration: none !important;
-  border-bottom: 2px solid var(--ls-primary-text-color);
+  border-bottom: 0px solid !important;
   border-radius: 4px !important;
   padding: 2px 6px;
 }
-
+.white-theme .block-ref {
+  background-color: #8fbcbb45 !important;
+}
 .dark-theme .block-ref {
-  background-color: #5d81ac52;
-  text-decoration: none !important;
-  border-bottom: 2px solid var(--ls-primary-text-color);
-  border-radius: 4px !important;
-  padding: 2px 6px;
+  background-color: #5d81ac52 !important;
 }
 .block-children-left-border {
   background-color: transparent !important;
@@ -277,6 +274,7 @@ mark {
 :not(pre)>code {
   padding: 1px 6px !important;
   border: var(--ls-page-inline-code-border);
+  border-radius: 2px;
 }
 
 html[data-theme=light] .cp__right-sidebar .block-content {
