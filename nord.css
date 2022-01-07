@@ -221,13 +221,6 @@ mark {
   text-decoration-color: var(--ls-mark-color);
 }
 
-.block-ref {
-  border-bottom: 0px solid;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 0.5px;
-}
-
 .editor-inner .uniline-block:is(.h1,.h2), .ls-block :is(h1,h2) {
   border-bottom: 0px solid !important;
 }
@@ -251,10 +244,8 @@ mark {
   color: var(--ls-primary-text-color);
   font-size: 80%;
 }
-
 .white-theme .block-ref, .dark-theme .block-ref {
-  text-decoration: none !important;
-  border-bottom: 0px solid !important;
+  border-bottom: 2px solid var(--ls-primary-text-color) !important;
   border-radius: 4px !important;
   padding: 2px 6px;
 }
@@ -266,12 +257,11 @@ mark {
 }
 .block-children-left-border {
   background-color: transparent !important;
-  border-left: 1.5px solid var(--ls-guideline-color);
+  border-left: 1px solid var(--ls-guideline-color);
 }
 .block-children-left-border:hover {
   background-color: transparent !important;
   border-left: 3px solid var(--ls-guideline-color);
-  margin-right: 0.5px;
 }
 /*.block-children-container:focus-within > .block-children-left-border {
   border-left: 2px solid var(--ls-page-checkbox-color);
