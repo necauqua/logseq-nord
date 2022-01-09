@@ -39,7 +39,7 @@ html[data-theme='dark'] {
     hsl(220, 16%, 30%) 100%
   );
   --ls-mark-bg-color: var(--cd-pink-1);
-  --ls-mark-color: var(--cd-blue-2);
+  --ls-mark-color: var(--cd-yellow-1);
   --ls-border-color: var(--cd-blue-2);
   --ls-secondary-border-color: #126277;
   --ls-guideline-color: #525c71;
@@ -47,8 +47,8 @@ html[data-theme='dark'] {
   --ls-primary-text-color: #ECEFF4;
   --ls-secondary-text-color: #ECEFF4;
   --ls-title-text-color: var(--ls-primary-text-color);
-  --ls-link-text-color: var(--cd-blue-4);
-  --ls-link-text-hover-color: var(--cd-blue-2);
+  --ls-link-text-color: var(--ls-secondary-text-color);
+  --ls-link-text-hover-color: var(--cd-orange-1);
   --ls-link-ref-text-color: var(--cd-blue-4);
   --ls-link-ref-text-hover-color: var(--cd-blue-1-6);
   --ls-tag-text-color: var(--cd-blue-4);
@@ -124,7 +124,7 @@ html[data-theme='light'] {
     hsl(220, 16%, 30%) 100%
   );
   --ls-mark-bg-color: var(--cd-pink-1);
-  --ls-mark-color: var(--cd-blue-4);
+  --ls-mark-color: var(--cd-yellow-1);
   --ls-border-color: var(--cd-blue-2);
   --ls-secondary-border-color: #126277;
   --ls-guideline-color: #bac6db;
@@ -132,8 +132,8 @@ html[data-theme='light'] {
   --ls-primary-text-color: #3B4252;
   --ls-secondary-text-color: #3B4252;
   --ls-title-text-color: var(--ls-primary-text-color);
-  --ls-link-text-color: var(--cd-blue-4);
-  --ls-link-text-hover-color: var(--cd-blue-4);
+  --ls-link-text-color: var(--ls-secondary-text-color);
+  --ls-link-text-hover-color: var(--cd-orange-1);
   --ls-link-ref-text-color: var(--cd-blue-1-1);
   --ls-link-ref-text-hover-color: var(--cd-blue-1-4);
   --ls-tag-text-color: var(--cd-blue-1-1);
@@ -214,7 +214,7 @@ mark {
   padding: 0px 0px !important;
   border-radius: 1px !important;
   text-decoration-line: underline;
-  text-decoration-style: double;
+  text-decoration-style: wavy;
   text-decoration-thickness: 1px;
   text-underline-offset: 1px;
   text-decoration-skip-ink: none;
