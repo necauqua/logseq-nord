@@ -48,7 +48,7 @@ html[data-theme='dark'] {
   --ls-secondary-text-color: #ECEFF4;
   --ls-title-text-color: var(--ls-primary-text-color);
   --ls-link-text-color: var(--ls-secondary-text-color);
-  --ls-link-text-hover-color: var(--cd-orange-1);
+  --ls-link-text-hover-color: var(--cd-blue-2);
   --ls-link-ref-text-color: var(--cd-blue-4);
   --ls-link-ref-text-hover-color: var(--cd-blue-1-6);
   --ls-tag-text-color: var(--cd-blue-4);
@@ -133,7 +133,7 @@ html[data-theme='light'] {
   --ls-secondary-text-color: #3B4252;
   --ls-title-text-color: var(--ls-primary-text-color);
   --ls-link-text-color: var(--ls-secondary-text-color);
-  --ls-link-text-hover-color: var(--cd-orange-1);
+  --ls-link-text-hover-color: var(--cd-blue-2);
   --ls-link-ref-text-color: var(--cd-blue-1-1);
   --ls-link-ref-text-hover-color: var(--cd-blue-1-4);
   --ls-tag-text-color: var(--cd-blue-1-1);
