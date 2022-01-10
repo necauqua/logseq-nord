@@ -298,3 +298,36 @@ html[data-theme=light] .cp__right-sidebar .block-content {
 #main-content-container .references-blocks .block-properties {
   background-color: var(--color-level-2) !important;
 }
+
+/* References title and breadcrumbs */
+.dark-theme .references .foldable-title .page-ref:hover, .white-theme .references .foldable-title .page-ref:hover {
+  color: var(--cd-blue-3) !important;
+}
+.dark-theme .references .foldable-title .page-ref, .white-theme .references .foldable-title .page-ref {
+  color: var(--ls-primary-text-color);
+}
+.dark-theme .block-parents a {
+  color: #6d7481 !important;
+  font-size: 85%;
+}
+.white-theme .block-parents a {
+  color: #7e8085 !important;
+  font-size: 85%;
+}
+.dark-theme .block-parents a:hover, .white-theme .block-parents a:hover {
+  color: var(--ls-link-text-hover-color) !important;
+}
+
+.white-theme .references .foldable-title .page-ref, .white-theme .block-parents a {
+  color: #373f4f;
+}
+
+.color-level.rounded {
+  margin-top: .5rem !important;
+  margin-bottom: .5rem !important;
+}
+
+.my-2 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
