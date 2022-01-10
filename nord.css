@@ -245,15 +245,23 @@ mark {
   font-size: 80%;
 }
 .white-theme .block-ref, .dark-theme .block-ref {
-  border-bottom: 2px solid var(--ls-primary-text-color) !important;
   border-radius: 4px !important;
   padding: 2px 6px;
 }
 .white-theme .block-ref {
   background-color: #8fbcbb45 !important;
+  border-bottom: 2px solid #b7bdc8 !important;
 }
+.white-theme .block-ref:hover {
+  color: var(--cd-pink-1);
+}
+
 .dark-theme .block-ref {
   background-color: #5d81ac52 !important;
+  border-bottom: 2px solid #7b88a3 !important;
+}
+.dark-theme .block-ref:hover {
+  color: var(--cd-yellow-1);
 }
 .block-children-left-border {
   background-color: transparent !important;
