@@ -301,7 +301,7 @@ html[data-theme=light] .cp__right-sidebar .block-content {
 
 /* References title and breadcrumbs */
 .dark-theme .references .foldable-title .page-ref:hover, .white-theme .references .foldable-title .page-ref:hover {
-  color: var(--cd-blue-3) !important;
+  color: var(--ls-link-ref-text-hover-color) !important;
 }
 .dark-theme .references .foldable-title .page-ref, .white-theme .references .foldable-title .page-ref {
   color: var(--ls-primary-text-color);
@@ -310,12 +310,15 @@ html[data-theme=light] .cp__right-sidebar .block-content {
   color: #6d7481 !important;
   font-size: 85%;
 }
+.dark-theme .block-parents a .page-ref, .white-theme .block-parents a .page-ref {
+  color: var(--ls-link-ref-text-color) !important;
+}
 .white-theme .block-parents a {
   color: #7e8085 !important;
   font-size: 85%;
 }
 .dark-theme .block-parents a:hover, .white-theme .block-parents a:hover {
-  color: var(--ls-link-text-hover-color) !important;
+  color: var(--ls-primary-text-color) !important;
 }
 
 .white-theme .references .foldable-title .page-ref, .white-theme .block-parents a {
