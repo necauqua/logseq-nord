@@ -58,7 +58,7 @@ html[data-theme='dark'] {
   --ls-block-bullet-color: var(--ls-guideline-color);
   --ls-block-highlight-color: var(--bg-lg-3);
   --ls-selection-background-color: var(--cd-pink-1);
-  --ls-page-checkbox-color: var(--cd-blue-2);
+  --ls-page-checkbox-color: transparent;
   --ls-page-checkbox-border-color: var(--ls-primary-background-color);
   --ls-page-blockquote-color: var(--ls-primary-text-color);
   --ls-page-blockquote-bg-color: var(--ls-secondary-background-color);
@@ -143,7 +143,7 @@ html[data-theme='light'] {
   --ls-block-bullet-color: var(--ls-guideline-color);
   --ls-block-highlight-color: var(--bg-lg-3);
   --ls-selection-background-color: var(--cd-pink-1);
-  --ls-page-checkbox-color: var(--cd-blue-2);
+  --ls-page-checkbox-color: transparent;
   --ls-page-checkbox-border-color: var(--ls-primary-background-color);
   --ls-page-blockquote-color: var(--ls-primary-text-color);
   --ls-page-blockquote-bg-color: var(--ls-secondary-background-color);
@@ -333,4 +333,18 @@ html[data-theme=light] .cp__right-sidebar .block-content {
 .my-2 {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
+}
+
+.block-marker {
+  display: none !important;
+}
+
+.form-checkbox {
+  border: 1.5px solid var(--ls-primary-text-color);
+  opacity: 0.3;
+  border-radius: 2px;
+}
+
+.form-checkbox:checked {
+  background-color: var(--cd-blue-4);
 }
