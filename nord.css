@@ -353,3 +353,7 @@ li.my-2 {
 .form-checkbox:checked {
   background-color: var(--cd-blue-4);
 }
+
+.journal h1.title:before {
+  content: "📆";
+}
