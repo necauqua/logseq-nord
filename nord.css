@@ -198,6 +198,10 @@ html[data-theme='light'] .CodeMirror-gutter,
   background-color: var(--bg-lg-3);
 }
 
+.cm-s-solarized.cm-s-dark {
+  color: var(--ls-primary-text-color);
+}
+
 .page-ref {
   font-weight: 400;
 }
@@ -355,5 +359,5 @@ li.my-2 {
 }
 
 .journal h1.title:before {
-  content: "📆";
+  content: "📆 ";
 }
