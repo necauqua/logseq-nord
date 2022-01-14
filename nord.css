@@ -364,3 +364,16 @@ li.my-2 {
   position: relative;
   top: -3px;
 }
+
+a.tag {
+  font-size: 11px !important;
+  color: grey;
+  padding: 0px 4px;
+  border: 1.5px solid grey;
+  border-radius: 2px;
+  font-weight: 600;
+}
+a.tag:hover {
+  color: var(--ls-tag-text-hover-color);
+  border: 1.5px solid var(--ls-tag-text-hover-color) !important;
+}
