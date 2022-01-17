@@ -203,19 +203,19 @@ html[data-theme='light'] .CodeMirror-gutter,
 }
 /* something */
 .cm-s-solarized .cm-keyword {
-  color: var(--cd-blue-1-1);
+  color: var(--cd-blue-3);
 }
 .cm-s-solarized .cm-operator {
-  color: var(--cd-blue-1-1);
+  color: var(--cd-blue-3);
 }
 .cm-s-solarized .cm-property {
-  color: var(--cd-pink-1);
+  color: var(--cd-blue-4);
 }
 .cm-s-solarized .cm-builtin {
-  color: var(--cd-blue-1-4);
+  color: var(--cd-blue-4);
 }
 .cm-s-solarized .cm-number {
-  color: var(--cd-blue-2);
+  color: var(--cd-pink-1);
 }
 .cm-s-solarized .cm-string {
   color: var(--cd-green-1);
