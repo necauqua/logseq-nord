@@ -226,6 +226,9 @@ html[data-theme='light'] .CodeMirror-gutter,
 .cm-s-solarized .cm-variable {
   color: var(--ls-primary-text-color);
 }
+.cm-s-solarized .cm-def {
+  color: var(--cd-blue-4);
+}
 
 .page-ref {
   font-weight: 400;
