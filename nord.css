@@ -226,7 +226,7 @@ html[data-theme='light'] .CodeMirror-gutter,
 .cm-s-solarized .cm-variable {
   color: var(--ls-primary-text-color);
 }
-.cm-s-solarized .cm-def {
+.cm-s-solarized .cm-def, .cm-s-solarized .cm-attribute {
   color: var(--cd-blue-4);
 }
 
@@ -404,4 +404,50 @@ a.tag {
 a.tag:hover {
   color: var(--ls-tag-text-hover-color);
   border: 1.5px solid var(--ls-tag-text-hover-color) !important;
+}
+
+/* PDF Viewer */
+#pdf-layout-container[data-theme=light] .textLayer {
+  background-color: var(--bg-dk-1);
+}
+#pdf-layout-container[data-theme=dark] .textLayer {
+  background-color: #2f3541;
+}
+
+#pdf-layout-container[data-theme=light] {
+  background-color: var(--bg-dk-3);
+}
+#pdf-layout-container[data-theme=dark] {
+  background-color: #22272f;
+}
+
+.textLayer .highlight.selected, .textLayer ::selection {
+  background-color: var(--cd-blue-3);
+}
+
+.extensions__pdf-hls-area-region[data-color=yellow] {
+  border-color: var(--cd-yellow-1);
+  background-color: var(--cd-yellow-1);
+}
+
+.extensions__pdf-hls-area-region[data-color=blue] {
+  border-color: var(--cd-blue-4);
+  background-color: var(--cd-blue-4);
+}
+
+.extensions__pdf-hls-area-region[data-color=green] {
+  border-color: var(--cd-green-1);
+  background-color: var(--cd-green-1);
+}
+.extensions__pdf-hls-area-region[data-color=red] {
+  border-color: var(--cd-red-1);
+  background-color: var(--cd-red-1);
+}
+.extensions__pdf-hls-area-region[data-color=purple] {
+  border-color: var(--cd-pink-1);
+  background-color: var(--cd-pink-1);
+}
+
+.hls-popup-box {
+  background-color: var(--bg-dk-2);
 }
