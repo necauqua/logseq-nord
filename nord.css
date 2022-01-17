@@ -406,6 +406,11 @@ a.tag:hover {
   border: 1.5px solid var(--ls-tag-text-hover-color) !important;
 }
 
+.color-level.rounded {
+  border: 1px solid var(--color-level-4);
+  border-radius: 1px;
+}
+
 /* PDF Viewer */
 #pdf-layout-container[data-theme=light] .textLayer {
   background-color: #eceff4;
