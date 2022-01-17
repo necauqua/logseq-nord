@@ -9,10 +9,10 @@
 NORD Theme for Logseq. 
 
 Dark:
-![dark](dark-nord.png)
+![dark](dark-nord2.png)
 
 Light:
-![light](light-nord.png)
+![light](light-nord2.png)
 
 ## Frequently Asked Questions
 
