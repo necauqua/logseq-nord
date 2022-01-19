@@ -429,6 +429,13 @@ li.my-2 {
   text-decoration: line-through;
 }
 
+.dark-theme .block-parents a.tag {
+  color: var(--cd-blue-4) !important;
+}
+.white-theme .block-parents a.tag {
+  color: var(--cd-blue) !important;
+}
+
 .color-level.rounded {
   border: 1px solid var(--color-level-4);
   border-radius: 1px;
