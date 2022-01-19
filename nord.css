@@ -307,24 +307,20 @@ mark {
   border-left: 2px solid var(--ls-page-checkbox-color);
 }*/
 
-:not(pre)>code {
-  font-size: 90%;
-}
 .dark-theme :not(pre)>code {
   background-color: transparent;
   border: 0px solid !important;
   padding: 0px 2px !important;
-  color: var(--ls-active-primary-color);
-  color: var(--cd-pink-1);
-  border-radius: 2px !important;
+  color: var(--cd-green-1);
+  font-style: italic !important;
 }
 .white-theme :not(pre)>code {
   background-color: transparent;
   border: 0px solid !important;
   padding: 0px 2px !important;
-  color: var(--ls-active-primary-color);
-  color: var(--cd-pink-1);
+  color: var(--cd-green-1);
   border-radius: 2px !important;
+  font-style: italic !important;
 }
 
 html[data-theme=light] .cp__right-sidebar .block-content {
@@ -410,7 +406,7 @@ li.my-2 {
 .dark-theme .tag {
   font-size: 80% !important;
   padding: 0px 2px;
-  color: var(--cd-blue-2) !important;
+  color: var(--cd-blue-4) !important;
   font-weight: 400 !important;
   background-color: #525c7145;
   border-radius: 2px;
