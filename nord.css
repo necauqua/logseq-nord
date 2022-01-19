@@ -308,9 +308,23 @@ mark {
 }*/
 
 :not(pre)>code {
-  padding: 1px 6px !important;
-  border: var(--ls-page-inline-code-border);
-  border-radius: 2px;
+  font-size: 90%;
+}
+.dark-theme :not(pre)>code {
+  background-color: transparent;
+  border: 0px solid !important;
+  padding: 0px 2px !important;
+  color: var(--ls-active-primary-color);
+  color: var(--cd-pink-1);
+  border-radius: 2px !important;
+}
+.white-theme :not(pre)>code {
+  background-color: transparent;
+  border: 0px solid !important;
+  padding: 0px 2px !important;
+  color: var(--ls-active-primary-color);
+  color: var(--cd-pink-1);
+  border-radius: 2px !important;
 }
 
 html[data-theme=light] .cp__right-sidebar .block-content {
