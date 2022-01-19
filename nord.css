@@ -393,17 +393,31 @@ li.my-2 {
   top: -3px;
 }
 
-a.tag {
+.dark-theme .tag {
   font-size: 80% !important;
-  color: grey;
-  padding: 0px 4px;
-  border: 1.5px solid grey;
+  padding: 0px 2px;
+  color: var(--cd-blue-2) !important;
+  font-weight: 400 !important;
+  background-color: #525c7145;
   border-radius: 2px;
-  font-weight: 600;
 }
-a.tag:hover {
+.dark-theme .tag:hover {
   color: var(--ls-tag-text-hover-color);
-  border: 1.5px solid var(--ls-tag-text-hover-color) !important;
+}
+.white-theme .tag {
+  font-size: 80% !important;
+  padding: 0px 2px;
+  color: var(--cd-blue) !important;
+  font-weight: 400 !important;
+  background-color: #bac6db5c;
+  border-radius: 2px;
+}
+.white-theme .tag:hover {
+  color: var(--ls-tag-text-hover-color);
+}
+
+.done .tag {
+  text-decoration: line-through;
 }
 
 .color-level.rounded {
