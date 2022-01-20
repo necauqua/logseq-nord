@@ -3,8 +3,8 @@
 ![nord](icon.png)
 
 - **Contributors:** Nick Martin (nmartin84)
-- **Requires at least:** Logseq 0.5.5
-- **Tested up to:** Logseq 0.5.5
+- **Requires at least:** Logseq 0.5.9
+- **Tested up to:** Logseq 0.5.9
 
 ## Description
 
