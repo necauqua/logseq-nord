@@ -296,15 +296,12 @@ mark {
 }
 .block-children-left-border {
   background-color: transparent !important;
-  border-left: 1px solid var(--ls-guideline-color);
+  /*border-left: 1px solid var(--ls-guideline-color);*/
 }
 .block-children-left-border:hover {
-  background-color: transparent !important;
-  border-left: 3px solid var(--ls-guideline-color);
+  background-color: var(--ls-primary-text-color) !important;
+  /*border-left: 3px solid var(--ls-guideline-color);*/
 }
-/*.block-children-container:focus-within > .block-children-left-border {
-  border-left: 2px solid var(--ls-page-checkbox-color);
-}*/
 
 .dark-theme :not(pre)>code {
   background-color: transparent;
