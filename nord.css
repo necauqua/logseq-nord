@@ -257,7 +257,7 @@ mark {
 }
 
 .block-marker {
-  color: var(--ls-page-checkbox-color);
+  color: var(--cd-blue-4);
 }
 
 .dark-theme .external-link:after {
