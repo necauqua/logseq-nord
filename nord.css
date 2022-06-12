@@ -1,4 +1,4 @@
-@import url('https://cdn.jsdelivr.net/gh/nmartin84/logseq-theme-colors/base.css');
+@import url('https://cdn.jsdelivr.net/gh/nmartin84/logseq-theme-colors@master/base.css');
 
 .dark-theme,
 html[data-theme='dark'] {
