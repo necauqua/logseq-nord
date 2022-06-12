@@ -10,6 +10,12 @@
         "url": "./nord.css",
         "description": "Nord Theme",
         "mode": "dark"
+      },
+      {
+        "name": "Nord",
+        "url": "./nord.css",
+        "description": "Nord Theme",
+        "mode": "light"
       }
     ],
     "id": "nord-theme"
