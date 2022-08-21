@@ -1,8 +1,8 @@
-@import url('https://cdn.jsdelivr.net/gh/nmartin84/logseq-theme-colors@main/base.css');
+@import './base.css';
 
 .dark-theme,
 html[data-theme='dark'] {
-    --bg-url: url(https://images.unsplash.com/photo-1473654729523-203e25dfda10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
+    --bg-url: url(https://wallpaperaccess.com/download/minimalist-mountain-675604);
     --background-color-h: 220;
     --background-color-s: 16%;
     --background-color-l: 14%;
@@ -22,10 +22,10 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
-    --bg-url: url(https://images.unsplash.com/photo-1504829857797-ddff29c27927?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
+    --bg-url: url(https://wallpaperaccess.com/download/minimalist-mountain-701802);
     --background-color-h: 218;
     --background-color-s: 27%;
-    --background-color-l: 94%;
+    --background-color-l: 90%;
     --primary-color-h: 193;
     --primary-color-s: 53%;
     --primary-color-l: 50%;

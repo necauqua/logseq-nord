@@ -3,8 +3,13 @@
 ![nord](icon.png)
 
 - **Contributors:** Nick Martin (nmartin84)
-- **Requires at least:** Logseq 0.5.9
-- **Tested up to:** Logseq 0.5.9
+- **Requires at least:** Logseq 0.8.1
+- **Tested up to:** Logseq 0.8.1
+
+![picture 1](images/cdfff8223af60c6ca5e5aa0d3e965846307d4a71f87fc9ea2a9dcf3c0004289e.png)  
+
+![picture 2](images/008c847c3da644a5b7be28597d0093cae574e3d1f06b6c1aea32099ec72976d6.png)  
+
 
 ## Description
 
@@ -50,12 +55,6 @@ html[data-theme='light'] {
     --primary-text-l: 28%;
 }
 ```
-
-Dark:
-![dark](dark-nord2.png)
-
-Light:
-![light](light-nord2.png)
 
 ## Frequently Asked Questions
 
