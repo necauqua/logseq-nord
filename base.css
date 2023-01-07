@@ -739,7 +739,7 @@ mark:not(pre)>code {
 .white-theme :not(pre)>code {
     border-radius: var(--cl-border-radius);
     font-size: 90%;
-    font-family: "iA Writer Duo S", "SF Mono";
+    font-family: "iA Writer Duo S", "SF Mono", "MonoLisa", "Fira Code", "Monaco", "Menlo", "Consolas", "COURIER NEW", monospace;
     padding: 1px 3px !important;
     /*background: transparent;*/
     color: var(--color-secondary);
@@ -751,7 +751,7 @@ mark:not(pre)>code {
 .dark-theme :not(pre)>code {
     border-radius: var(--cl-border-radius);
     font-size: 85%;
-    font-family: "iA Writer Duo S", "SF Mono";
+    font-family: "iA Writer Duo S", "SF Mono", "MonoLisa", "Fira Code", "Monaco", "Menlo", "Consolas", "COURIER NEW", monospace;
     padding: 1px 3px !important;
     /*background: transparent;*/
     color: var(--color-secondary);
